@@ -21,8 +21,12 @@ System.config({
     "github:jspm/nodelibs-process@0.1.0": {
       "process": "npm:process@0.10.0"
     },
-    "npm:core-js@0.4.4": {
-      "process": "github:jspm/nodelibs-process@0.1.0"
+    "github:jspm/nodelibs@0.0.8": {
+      "Base64": "npm:Base64@0.2.1",
+      "base64-js": "npm:base64-js@0.0.8",
+      "ieee754": "npm:ieee754@1.1.4",
+      "inherits": "npm:inherits@2.0.1",
+      "json": "github:systemjs/plugin-json@0.1.0"
     }
   }
 });
